@@ -1,0 +1,26 @@
+.buttonStyle {
+  width: 240px;
+  height: 100%;
+  padding: 15px 10px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em; /* 16px */
+  font-weight: 700;
+  text-transform: uppercase;
+
+  background: #3ec4e3;
+  color: #FFF;
+
+  outline: none;
+  border: none;
+  border-radius: 5px;
+
+  transition: background .2s ease-in, color .2s ease-in;
+}
+
+.buttonStyle:hover{
+  color: #3ec4e3;
+  background: #FFF;
+}

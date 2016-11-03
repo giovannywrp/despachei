@@ -1,0 +1,44 @@
+.contentBox {
+  width: 100%;
+  margin-top: 120px;
+  margin-right: 20px;
+  margin-bottom: 120px;
+  float: left;
+  text-align: center;
+
+  > h4 {
+    width: 200px;
+    margin: 15px auto;
+    text-align: center;
+    color: #3ec4e3;
+    font-size: 1.563em; /* 25px */
+    font-weight: 700;
+  }
+  > p {
+    margin: 10px;
+    text-align: center;
+    color: #817f7d;
+    font-size: 1.063em; /* 17px */
+    line-height: 1.2;
+    font-weight: 400;
+  }
+}
+
+
+.contentBox:last-child {
+  margin-right: 0;
+}
+
+@-webkit-keyframes contentBoxFadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-45%, 0, 0);
+    transform: translate3d(-45%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}

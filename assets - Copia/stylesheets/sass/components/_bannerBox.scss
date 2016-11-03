@@ -1,0 +1,39 @@
+.bannerBox{
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  padding: 5px 0;
+  border-radius: 20px;
+  background: transparent;
+  text-align: center;
+  //background: rgba(255, 255, 255, 0.07);
+
+}
+
+.inputContainer {
+  margin: auto;
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  > input {
+    margin-top: 20px;
+    width: 250px;
+    font-size: 20px;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.40);
+  }
+  > .buttonStyle {
+    width: 150px;
+    margin-left: 10px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+}
