@@ -14,14 +14,6 @@
   transition: .3s ease-in;
   will-change:box-shadow, background;
 
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-
-  -webkit-animation-name: productBoxfadeInUp;
-  animation-name: productBoxfadeInUp;
-
     > h4 {
       width: 200px;
       margin: 15px auto;
@@ -52,18 +44,4 @@
 .productBox:last-child {
   margin-right: 0;
   margin-bottom: 120px;
-}
-
-@-webkit-keyframes productBoxfadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 20%, 0);
-    transform: translate3d(0, 20%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
 }

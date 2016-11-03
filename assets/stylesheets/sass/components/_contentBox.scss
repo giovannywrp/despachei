@@ -28,17 +28,3 @@
 .contentBox:last-child {
   margin-right: 0;
 }
-
-@-webkit-keyframes contentBoxFadeInLeft {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(-45%, 0, 0);
-    transform: translate3d(-45%, 0, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
