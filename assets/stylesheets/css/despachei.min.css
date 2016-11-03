@@ -248,7 +248,7 @@ a {
   height: 100%;
   min-height: 100vh;
   width: 100%; }
-  .banner h1 {
+  .banner > .wrapper h1 {
     margin: 0;
     padding-top: 4em;
     text-align: center;
@@ -256,9 +256,9 @@ a {
     color: #FFF;
     font-size: 3.125em;
     font-weight: 400; }
-    .banner h1 > span {
+    .banner > .wrapper h1 > span {
       font-weight: 700; }
-  .banner h2 {
+  .banner > .wrapper h2 {
     margin-top: 20px;
     line-height: 1;
     margin-bottom: 20px;
@@ -266,34 +266,33 @@ a {
     color: #FFF;
     font-size: 1.8em;
     font-weight: 300; }
-
-.ArrowDown {
-  width: 100%;
-  max-width: 200px;
-  margin: auto;
-  margin-top: 3em;
-  text-align: center; }
-  .ArrowDown > a {
-    line-height: 1;
-    display: block;
-    background: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 1.2em;
-    text-decoration: none;
-    color: #3ec4e3;
-    transition: color .3s ease-out; }
-    .ArrowDown > a > span {
-      position: relative;
-      top: 20px;
+  .banner .ArrowDown {
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 3em;
+    text-align: center; }
+    .banner .ArrowDown > a {
+      line-height: 1;
       display: block;
-      font-size: 1em;
-      font-weight: 700;
-      padding: 0;
-      margin: 0; }
-  .ArrowDown a:hover {
-    color: #FFF; }
+      background: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #3ec4e3;
+      transition: color .3s ease-out; }
+      .banner .ArrowDown > a > span {
+        position: relative;
+        top: 20px;
+        display: block;
+        font-size: 1em;
+        font-weight: 700;
+        padding: 0;
+        margin: 0; }
+    .banner .ArrowDown a:hover {
+      color: #FFF; }
 
 .buttonStyle {
   width: 240px;
@@ -749,10 +748,10 @@ a {
         background: #3ec4e3;
         color: #FFF; }
 
-  .banner h1 {
+  .banner > .wrapper h1 {
     margin-top: 20px;
     font-size: 1.563em; }
-  .banner h2 {
+  .banner > .wrapper h2 {
     font-size: 1em; }
 
   .bannerBox .inputContainer {
