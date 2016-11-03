@@ -1,0 +1,70 @@
+$white: #FFF;
+$heading01: 3.125em; /* 50px */
+$heading02: 1.8em; /* 30px */
+$heading04: 1em; /* 16px */
+$light: 300;
+$regular: 400;
+$bold: 700;
+
+@import "./_bannerBox.scss";
+
+.banner{
+  background: url('../../img/Wallpaper.png') no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  h1 {
+    margin: 0;
+    padding-top: 4em;
+    text-align: center;
+    line-height: 1;
+    color: $white;
+    font-size: $heading01;
+    font-weight: $regular;
+    > span {
+      font-weight: $bold;
+    }
+  }
+  h2 {
+    margin-top: 20px;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-align: center;
+    color: $white;
+    font-size: $heading02;
+    font-weight: $light;
+  }
+}
+
+.ArrowDown {
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+  margin-top: 3em;
+  text-align: center;
+  > a {
+    line-height: 1;
+    display: block;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    > span {
+      position: relative;
+      top: 20px;
+      display: block;
+      font-size: $heading04;
+      font-weight: $bold;
+      padding: 0;
+      margin: 0;
+    }
+    text-decoration: none;
+    color: #3ec4e3;
+    transition: color .3s ease-out;
+  }
+  a:hover {
+    color: #FFF;
+  }
+}

@@ -1,0 +1,88 @@
+@media screen and (min-width: 1440px) {
+  .wrapper{
+    h2{
+      margin-top: 220px;
+    }
+  }
+  .banner {
+    h1 {
+      position: relative;
+      margin-top: 6em;
+    }
+    .ArrowDown{
+      margin-top: 15em;
+    }
+  }
+}
+
+@media screen and (min-width: 970px) and (max-width: 1024px) {
+
+  //commons
+  .wrapper {
+    h2{
+      font-size: 2.188em; //35px
+    }
+    h3{
+      font-size: 1.3em; //20px
+    }
+  }
+
+  .topMenu header {
+    nav {
+      position: relative;
+      left: -35px;
+    }
+  }
+
+  .banner{
+    h1 {
+      font-size: 2.188em; //35px
+    }
+    h2{
+      font-size: 1.3em; //20px
+    }
+  }
+
+  .contentBox {
+    h4 {
+      font-size: 1.125em; //18px
+      padding-top: 20px;
+    }
+  }
+
+  .partnersContainer{
+    .wrapper {
+      > .contentBox{
+        max-width: 318px;
+      }
+    }
+  }
+
+  .footerContent {
+    > .contentBox{
+      max-width: 318px;
+    }
+  }
+
+  .arrowBox {
+    visibility: visible;
+    max-width: 50px;
+  }
+
+  .stepBox {
+    max-width: 200px;
+    h4 {
+      font-size: 1.125em; //18px
+      padding-top: 20px;
+    }
+  }
+
+  .productBox {
+    max-width: 200px;
+    h4 {
+      font-size: 1.125em; //18px
+      padding-top: 20px;
+    }
+  }
+
+}
