@@ -16,7 +16,7 @@ function handleScroll(target){
   }, 1200);
 }
 
-document.onload = function () {
+window.onload = function () {
   var header = document.getElementById('headerContainer');
   if(window.pageYOffset > 1 ){
     if(header.className !== 'topMenu fixedMenu'){
