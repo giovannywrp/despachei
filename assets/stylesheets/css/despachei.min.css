@@ -753,6 +753,10 @@ a {
     font-size: 1.563em; }
   .banner > .wrapper h2 {
     font-size: 1em; }
+  .banner > .wrapper .ArrowDown {
+    margin-top: 20px; }
+    .banner > .wrapper .ArrowDown a {
+      font-size: 1em; }
 
   .bannerBox .inputContainer {
     margin-top: 10px;
@@ -765,11 +769,6 @@ a {
       display: block;
       margin: 5px auto;
       width: 270px; }
-
-  .ArrowDown {
-    margin-top: 1em; }
-    .ArrowDown a {
-      font-size: 1em; }
 
   .contentBox {
     float: none;

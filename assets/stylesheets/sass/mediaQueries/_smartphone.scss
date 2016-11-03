@@ -35,6 +35,12 @@
       h2{
         font-size: 1em; //16px
       }
+      .ArrowDown {
+        margin-top: 20px;
+        a {
+          font-size: 1em;
+        }
+      }
     }
   }
 
@@ -52,13 +58,6 @@
         margin: 5px auto;
         width: 270px;
       }
-    }
-  }
-
-  .ArrowDown {
-    margin-top: 1em;
-    a {
-      font-size: 1em;
     }
   }
 
