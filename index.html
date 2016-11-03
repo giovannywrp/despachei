@@ -235,17 +235,15 @@
       </div>
     </div>
     <!-- Footer !-->
-    <div class="Container">
-      <footer class="Container">
+    <div class="Container footer">
         <div class='footerContent'>
           <section class='contentBox'>
             <h4>Localização</h4>
-            <a>Rua Lisboa, 890 - Cerqueira César, São Paulo - SP</a>
-            <iframe
-              width="200"
-              height="350"
+            <a class="locationLink">Rua Lisboa, 890 - Cerqueira César, São Paulo - SP</a>
+            <iframe id="map"
               frameborder="0" style="border:0"
-              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDLuLpbSpsEF6uwrq8LdjfDVPpJxpjce74&q=Space+Needle,Seattle+WA" allowfullscreen>
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB_nUf1h8MVReXkDBo6mZFNSuWiz882VHI
+                &zoom=18&q=Rua+Lisboa+890+Cerqueira+Cesar+Sao+Paulo+SP" allowfullscreen>
             </iframe>
           </section>
           <section class='contentBox'>
@@ -260,17 +258,30 @@
               <li><a href="#" >Entrar em contato</a></li>
             </ul>
           </section>
-        </div>
-      </footer>
-      <footer class='belowFooter'>
-        <p>Despachei.co (c) 2016 Todos os direitos reservados.</p>
-        <div class="easycarros">
-          <p>Powered by</p>
-          <img src="./assets/img/logoEasyCarros.svg" alt="EasyCarrosLogo.png" />
-        </div>
-      </footer>
+      </div>
     </div>
+    <footer class='belowFooter'>
+      <p>Despachei.co (c) 2016 Todos os direitos reservados.</p>
+      <div class="easycarros">
+        <p>Powered by</p>
+        <img src="./assets/img/logoEasyCarros.svg" alt="EasyCarrosLogo.png" />
+      </div>
+    </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="./assets/js/script.js"></script>
+  <script type="text/javascript">
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -34.397, lng: 150.644},
+    zoom: 8
+  });
+}
+
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLuLpbSpsEF6uwrq8LdjfDVPpJxpjce74&callback=initMap">
+    </script>
   </body>
 </html>
