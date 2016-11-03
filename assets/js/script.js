@@ -1,14 +1,5 @@
-window.addEventListener('scroll', function(){
-  var header = document.getElementById('headerContainer');
-  if(window.pageYOffset > 1 ){
-    if(header.className !== 'topMenu fixedMenu'){
-      header.className += ' fixedMenu';
-    }
-  }
-  if(window.pageYOffset < 2 ){
-    header.className = 'topMenu';
-  }
-});
+window.onload = handleMenu();
+window.addEventListener('scroll', handleMenu());
 
 function handleScroll(target){
   $('html, body').animate({
@@ -16,7 +7,7 @@ function handleScroll(target){
   }, 1200);
 }
 
-window.onload = function () {
+function handleMenu() {
   var header = document.getElementById('headerContainer');
   if(window.pageYOffset > 1 ){
     if(header.className !== 'topMenu fixedMenu'){
