@@ -691,7 +691,7 @@ a {
 
   .footerContent > .contentBox {
     max-width: 235px; } }
-@media screen and (min-width: 750px) and (max-width: 829px) {
+@media screen and (min-width: 771px) and (max-width: 829px) {
   .topMenu header nav ul li {
     padding-right: 15px; }
 
@@ -731,7 +731,7 @@ a {
 
   .footerContent > .contentBox {
     max-width: 235px; } }
-@media screen and (min-width: 320px) and (max-width: 749px) {
+@media screen and (min-width: 320px) and (max-width: 770px) {
   .topMenu {
     background: #001b4b; }
     .topMenu header nav ul {
@@ -770,6 +770,24 @@ a {
       margin: 5px auto;
       width: 270px; }
 
+  .image-Description {
+    float: none;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; }
+    .image-Description h2 {
+      margin-top: 100px;
+      font-size: 3.125em; }
+    .image-Description h3 {
+      font-size: 1em;
+      margin-bottom: 50px; }
+
+  .serviceList-Container {
+    float: none;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; }
+
   .contentBox {
     float: none;
     margin: 50px auto; }
@@ -791,8 +809,7 @@ a {
     float: none;
     margin: 0 auto;
     margin-top: 20px;
-    padding-left: 0;
-    padding-right: 0; }
+    padding: 20px; }
 
   .productBox:first-child {
     float: none;
@@ -800,7 +817,8 @@ a {
     margin-top: 20px; }
 
   .productBox:last-child {
-    margin: 50px auto; }
+    margin: 50px auto;
+    margin-bottom: 100px; }
 
   .arrowBox {
     visibility: hidden;
@@ -812,7 +830,7 @@ a {
     padding-right: 0; }
     .wrapper h2 {
       margin-top: 100px;
-      font-size: 1.563em; }
+      font-size: 3.125em; }
     .wrapper h3 {
       font-size: 1em;
       margin-bottom: 50px; }
