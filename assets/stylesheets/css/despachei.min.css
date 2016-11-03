@@ -781,6 +781,11 @@ a {
     .image-Description h3 {
       font-size: 1em;
       margin-bottom: 50px; }
+    .image-Description p {
+      width: 200px;
+      margin-bottom: 100px; }
+    .image-Description > img {
+      width: 200px; }
 
   .serviceList-Container {
     float: none;
@@ -814,6 +819,8 @@ a {
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px; }
+    .productBox > h4 {
+      font-size: 1.250em; }
 
   .productBox:first-child {
     float: none;
