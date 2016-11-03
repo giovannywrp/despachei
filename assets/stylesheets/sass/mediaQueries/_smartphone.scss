@@ -162,12 +162,12 @@
     margin-bottom: 100px;
   }
 
-  footer{
-    height: 814px;
-    .footerContent{
-      > .contentBox {
+  .footerContent{
+    .contentBox{
+      #map{
+        visibility: hidden;
+        max-height: 0;
       }
     }
   }
-
 }

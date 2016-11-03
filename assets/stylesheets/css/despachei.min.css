@@ -819,7 +819,8 @@ a {
   .partnersButton {
     margin-bottom: 100px; }
 
-  footer {
-    height: 814px; } }
+  .footerContent .contentBox #map {
+    visibility: hidden;
+    max-height: 0; } }
 
 /*# sourceMappingURL=despachei.min.css.map */
