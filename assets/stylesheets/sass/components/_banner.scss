@@ -64,7 +64,11 @@ $bold: 700;
       > img{
         margin-top: 30px;
         width: 50px;
+        fill: #3ec4e3 !important;
         animation: bounceInDown infinite 1s linear;
+      }
+      #arrow:hover{
+        fill: #3ec4e3;
       }
       text-decoration: none;
       color: #3ec4e3;

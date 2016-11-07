@@ -1,5 +1,9 @@
 .servicesContainer {
-  background: -webkit-linear-gradient(left, #001b4b, rgba(0, 27, 75, 0.5));
+  background: #001b4b; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(#001b4b, #1883bb); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#001b4b, #1883bb); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#001b4b, #1883bb); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#001b4b, #1883bb); /* Standard syntax */
   > .wrapper{
     h2 {
       color: #FFF;
@@ -9,7 +13,7 @@
       text-align: center;
       font-size: 3.5em;
       font-weight: 700;
-    }  
+    }
   }
 }
 
