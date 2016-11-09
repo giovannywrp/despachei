@@ -1,7 +1,7 @@
 document.onload = function () {
   var header = document.getElementById('headerContainer');
   if(window.pageYOffset > 1 ){
-    if(header.className === 'topMenu'){
+    if(header.className === 'topMenu clearfix'){
       header.className += ' fixedMenu';
     }
   }
@@ -13,7 +13,7 @@ document.onload = function () {
 window.addEventListener('scroll', function () {
   var header = document.getElementById('headerContainer');
   if(window.pageYOffset > 1 ){
-    if(header.className === 'topMenu'){
+    if(header.className === 'topMenu clearfix'){
       header.className += ' fixedMenu';
     }
   }
