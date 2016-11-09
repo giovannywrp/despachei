@@ -6,7 +6,7 @@ document.onload = function () {
     }
   }
   if(window.pageYOffset < 2 ){
-    header.className = 'topMenu';
+    header.className = 'topMenu clearfix';
   }
 }
 
@@ -18,7 +18,7 @@ window.addEventListener('scroll', function () {
     }
   }
   if(window.pageYOffset < 2 ){
-    header.className = 'topMenu';
+    header.className = 'topMenu clearfix';
   }
 });
 
