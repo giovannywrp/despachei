@@ -67,8 +67,8 @@
         margin-left: auto;
         margin-right: auto;
         > button{
-          margin-top: 90px;
-          margin-bottom: 90px;
+          margin-top: 80px;
+          margin-bottom: 80px;
         }
       }
     }
@@ -79,6 +79,48 @@
     background: url('../../img/imgParceiros.png');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 672px;
+    min-height: 652px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 770px) {
+  .partnersContainer{
+    .partners-content {
+      width: 100%;
+      max-width: none;
+    }
+    .partners-content.left{
+      float: none;
+      max-width: 100%;
+      > .wrapper{
+        max-width: 300px;
+        > h4{
+          font-size: 1.250em;
+        }
+        > p {
+          font-size: 1em;
+        }
+        ul {
+          float: none;
+          margin-bottom: 15px;
+          padding-left: 0;
+          > li {
+            > label{
+              font-size: 1em;
+            }
+          }
+        }
+        .partners-button{
+          > button {
+            margin-top: 65px;
+            margin-bottom: 80px;
+          }
+        }
+      }
+    }
+    .partners-content.right{
+      float: none;
+      min-height: 0;
+    }
   }
 }
