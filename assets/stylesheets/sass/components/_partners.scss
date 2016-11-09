@@ -1,40 +1,84 @@
-.partnersContainer {
-  background: url('../../img/FundoParceiros.png') no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  display: block;
-  text-align: center;
-  > .wrapper {
-    h3 {
-      color: #FFF;
-    }
-    > .contentBox {
-      max-width: 380px;
+.partnersContainer{
+  background: #FFF;
+  .partners-content {
+    width: 100%;
+    max-width: 50%;
+    height: 100%;
+
+    margin: 0 auto;
+  }
+
+  .partners-content.left{
+    float: left;
+    background: #303030;
+    > .wrapper{
+      max-width: 600px;
+      text-align: center;
+      > h3{
+        color: #FFF;
+      }
       > h4 {
+        width: 200px;
+        margin: 15px auto;
+        text-align: center;
         color: #3ec4e3;
+        font-size: 1.563em; /* 25px */
+        font-weight: 700;
       }
       > p {
         color: #FFF;
+        max-width: 100%;
+        max-width: 550px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.250em;
+        font-weight: 300;
       }
       > ul {
-        margin: 10px;
-        padding-left: 0;
+        width: 100%;
+        max-width: 250px;
+        float: left;
+
+        margin-top: 0;
+        margin-bottom: 0;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        display: inline-block;
         list-style: none;
-        text-align: justify;
+
         > li {
-          p {
-            margin: 0;
-            font-size: 1em;
+          > label {
             color: #FFF;
+            font-size: 1.250em;
+            font-weight: 300;
+            > span {
+              font-weight: 600;
+            }
           }
+        }
+      }
+      .partners-button{
+        max-width: 400px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        > button{
+          margin-top: 90px;
+          margin-bottom: 90px;
         }
       }
     }
   }
-}
 
-.partnersButton {
-  width: 300px;
-  margin: 0px auto;
-  margin-bottom: 80px;
+  .partners-content.right{
+    float: right;
+    background: url('../../img/imgParceiros.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 672px;
+  }
 }
