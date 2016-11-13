@@ -2,22 +2,20 @@ $white: #FFF;
 
 .topMenu{
   width: 100%;
-  height: 70px;
+  height: 69px;
   margin: 0 auto;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
   background: transparent;
+  border-bottom: solid 1px #FFFFFF;
   transition: .3s ease-out;
   will-change: background;
 }
 
 .fixedMenu{
   background: rgba(0, 27, 75, 0.9);
-}
-
-.fixedMenu header {
   border-bottom: none !important;
 }
 
@@ -28,8 +26,6 @@ $white: #FFF;
   margin: 0 auto;
   padding-right: 16px;
   padding-left: 16px;
-
-  border-bottom: solid 1px #FFFFFF;
 
   transition: all .2s ease-in;
 
@@ -67,7 +63,7 @@ $white: #FFF;
 
 
         font-size: 1.250em;
-        font-weight: 600;
+        font-weight: 400;
         text-transform: uppercase;
 
         top: 10%;
@@ -109,26 +105,23 @@ $white: #FFF;
           display: inline-block;
           padding-right: 30px;
 
+
           .login-button{
-            min-width: 90px;
-
             background: transparent;
-            color: #FFFFFF;
+            color: #817f7d;
 
-            font-size: 1.250em;
+            font-size: 1em;
             font-weight: 600;
-            text-transform: uppercase;
 
-            padding: 15px 10px;
+            padding: 15px 0;
 
-            border: solid 2px #3ec4e3;
-            border-radius: 7px;
+            border: none;
 
             transition: all .2s ease-in;
           }
 
           .login-button:hover{
-            background: #3ec4e3;
+            color: #3ec4e3;
           }
 
           a {
