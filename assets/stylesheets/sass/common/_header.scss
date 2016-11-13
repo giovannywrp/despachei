@@ -15,16 +15,10 @@ $white: #FFF;
 
 .fixedMenu{
   background: rgba(0, 27, 75, 0.9);
-  nav {
-    .buttonStyle{
-      background: #3ec4e3;
-      transition: .2s ease-in;
-      will-change: background, color;
-    }
-    .buttonStyle:hover{
-      background: #FFF;
-    }
-  }
+}
+
+.fixedMenu header {
+  border-bottom: none !important;
 }
 
 .topMenu header {
@@ -34,6 +28,10 @@ $white: #FFF;
   margin: 0 auto;
   padding-right: 16px;
   padding-left: 16px;
+
+  border-bottom: solid 1px #FFFFFF;
+
+  transition: all .2s ease-in;
 
   > a {
     cursor: pointer;
@@ -60,13 +58,31 @@ $white: #FFF;
       width: 0px;
       visibility: hidden;
 
-      .buttonStyle{
-        width: 120px;
-        border-radius: 5px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        transition: .2s ease;
-        will-change: background;
+      .login-button{
+        min-width: 90px;
+        position: relative;
+
+        background: #3ec4e3;
+        color: #FFFFFF;
+
+
+        font-size: 1.250em;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        top: 10%;
+        right: 40%;
+
+        padding: 15px 10px;
+
+        border: solid 2px #3ec4e3;
+        border-radius: 7px;
+
+        transition: all .2s ease-in;
+      }
+
+      .login-button:hover{
+        background: #3ec4e3;
       }
 
     }
@@ -93,11 +109,26 @@ $white: #FFF;
           display: inline-block;
           padding-right: 30px;
 
-          .buttonStyle{
-            width: 120px;
-            border-radius: 5px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+          .login-button{
+            min-width: 90px;
+
+            background: transparent;
+            color: #FFFFFF;
+
+            font-size: 1.250em;
+            font-weight: 600;
+            text-transform: uppercase;
+
+            padding: 15px 10px;
+
+            border: solid 2px #3ec4e3;
+            border-radius: 7px;
+
+            transition: all .2s ease-in;
+          }
+
+          .login-button:hover{
+            background: #3ec4e3;
           }
 
           a {
@@ -124,19 +155,6 @@ $white: #FFF;
         }
         li:last-child{
           padding-right: 0;
-        }
-
-        .login {
-
-          a {
-            color: #3ec4e3;
-            text-transform: uppercase;
-            font-weight: 700;
-          }
-          a:hover:after{
-            width: 0;
-          }
-
         }
       }
     }

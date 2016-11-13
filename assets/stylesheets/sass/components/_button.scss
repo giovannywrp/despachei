@@ -1,23 +1,20 @@
 .buttonStyle {
-  width: 240px;
-  height: 100%;
-  padding: 15px 10px;
-  margin-top: 14px;
-  margin-bottom: 14px;
+  background: transparent;
+  color: #FFFFFF;
 
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1em; /* 16px */
-  font-weight: 600;
+  min-width: 130px;
+  outline: none;
+
+  font-size: 1.250em;
+  font-weight: 300;
   text-transform: uppercase;
 
-  background: #3ec4e3;
-  color: #FFF;
+  padding: 11px 47px 9px;
 
-  outline: none;
-  border: none;
-  border-radius: 5px;
+  border: 2px solid #FFFFFF;
+  border-radius: 500px;
 
-  transition: background .2s ease-in, color .2s ease-in;
+  transition: all .2s ease-in;
 }
 
 .buttonStyle:hover{

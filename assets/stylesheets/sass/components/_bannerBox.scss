@@ -9,6 +9,34 @@
   text-align: center;
   //background: rgba(255, 255, 255, 0.07);
 
+  button {
+    background: transparent;
+    color: #FFFFFF;
+
+    min-width: 130px;
+    outline: none;
+
+    font-size: 1.250em;
+    font-weight: 300;
+    text-transform: uppercase;
+
+    padding: 11px 47px 9px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 500px;
+
+    transition: all .2s ease-in;
+  }
+
+  button:focus{
+    border: 2px solid #FFFFFF;
+  }
+
+  button:hover {
+    background: #3ec4e3;
+    border-color: #3ec4e3;
+  }
+
 }
 
 .inputContainer {
