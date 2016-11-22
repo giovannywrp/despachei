@@ -22,8 +22,9 @@ window.addEventListener('scroll', function () {
   }
 });
 
+var smoothScroll = require('smoothScroll.js');
+
 function handleScroll(target){
-  $('html, body').animate({
-      scrollTop: $(target).offset().top
-  }, 1200);
+  smoothScroll.scrollTo(target, 'y')
 }
+

@@ -1,23 +1,30 @@
 .buttonStyle {
-  background: transparent;
-  color: #FFFFFF;
+  min-width: 200px;
+  height: 100%;
+  padding: 8px 35px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 
-  min-width: 130px;
-  outline: none;
-
-  font-size: 1.250em;
-  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em; /* 16px */
+  font-weight: 600;
   text-transform: uppercase;
+  letter-spacing: 1.2px;
 
-  padding: 11px 47px 9px;
+  background: #1883bb; /* For browsers that do not support gradients */
+  color: #FFF;
 
-  border: 2px solid #FFFFFF;
-  border-radius: 500px;
+  outline: none;
+  border: solid 2px transparent;
+  border-radius: 3.00px;
 
   transition: all .2s ease-in;
 }
 
 .buttonStyle:hover{
-  color: #3ec4e3;
-  background: #FFF;
+  background: rgba(24, 131, 187, .70);
+}
+
+.buttonStyle:active{
+  background: rgba(24, 131, 187, .30);
 }

@@ -9,57 +9,15 @@
   text-align: center;
   //background: rgba(255, 255, 255, 0.07);
 
-  button {
+  .buttonStyle {
+    background: #3a61b3;
+    color: #FAFAFA;
+    border: solid 1px transparent;
+  }
+
+  .buttonStyle:hover{
     background: transparent;
-    color: #FFFFFF;
-
-    min-width: 130px;
-    outline: none;
-
-    font-size: 1.125em;
-    font-weight: 300;
-
-    padding: 6px 27px;
-
-    border: 2px solid #FFFFFF;
-    border-radius: 500px;
-
-    transition: all .2s ease-in;
+    border: solid 1px #FAFAFA;
   }
 
-  button:focus{
-    border: 2px solid #FFFFFF;
-  }
-
-  button:hover {
-    background: #3ec4e3;
-    border-color: #3ec4e3;
-  }
-
-}
-
-.inputContainer {
-  margin: auto;
-  width: 100%;
-  position: relative;
-  display: inline-block;
-  > input {
-    width: 250px;
-    font-size: 20px;
-    padding: 15px 10px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.40);
-  }
-  > .buttonStyle {
-    width: 150px;
-    margin-left: 10px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 15px 10px;
-    border-radius: 5px;
-    font-size: 20px;
-  }
 }

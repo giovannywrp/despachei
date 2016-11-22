@@ -35,12 +35,12 @@
               <hr/>
             </li>
             <li>
-              <form action="http://localhost:3000/login">
+              <form action="https://despachei-home.herokuapp.com/login">
                 <button type="submit" class="login-button">Entrar</button>
               </form>
             </li>
           </ul>
-          <form class="mobileMenu" action="http://localhost:3000/login">
+          <form class="mobileMenu" action="https://despachei-home.herokuapp.com/login">
             <button type="submit" class="login-button">Entrar</button>
           </form>
         </nav>
@@ -58,7 +58,7 @@
           renovação de CNH, e contestação de multas.
         </h2>
         <div class="bannerBox clearfix">
-            <button onclick="handleScroll('#understandingProcess')">Saiba Mais!</button>
+            <button class="buttonStyle" onclick="handleScroll('#understandingProcess')">Saiba Mais!</button>
         </div>
       </div>
     </div>
@@ -129,59 +129,62 @@
     <!-- Services Container !-->
     <div class='container servicesContainer clearfix' id="services">
       <div class="wrapper clearfix">
-        <section class="image-Description">
           <h2>Serviços oferecidos</h2>
-           <h3>
-             Não perca tempo,<br/>
-             solicite já um de nossos serviços
-           </h3>
-           <img src="./assets/img/marketing_web.png" alt="ServiceImage.png"/>
-           <p>
-           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elit sollicitudin, hendrerit odio in, iaculis massa. Fusce at dignissim ligula.
-           </p>
-        </section>
-        <section class="serviceList-Container">
-          <div class='productBox'>
-             <span class="icon-Despachei-Multas">
-                 <span class="path1"></span><span class="path2"></span>
-              </span>
-              <h4>Contestação de multas</h4>
-              <p>
-                A partir de R$: xx,xx
-              </p>
-              <button class="buttonStyle">Solicitar</button>
-          </div>
-          <div class='productBox'>
+          <h3>
+              Não perca tempo,<br/>
+              solicite já um de nossos serviços
+          </h3>
+          <div class="service-container">
+              <div class='productBox'>
+                 <span class="icon-Despachei-Multas">
+                     <span class="path1"></span><span class="path2"></span>
+                  </span>
+                  <h4>Contestação de multas</h4>
+                  <p>
+                      Você recebeu uma multa e achou ela injusta? Deixe-nos lhe ajudar. Solicite o serviço de Contestação de multas e tenha seu problema resolvido sem sair de casa!
+                  </p>
+                  <form action="https://despachei-home.herokuapp.com/service">
+                      <button class='buttonStyle' type="submit" class="login-button">Pedir agora!</button>
+                  </form>
+              </div>
+              <div class='productBox'>
              <span class="icon-Despachei-Licenciamento">
                  <span class="path1"></span><span class="path2"></span>
               </span>
-              <h4>Licenciamento de veículos</h4>
-              <p>
-                A partir de R$: xx,xx
-              </p>
-              <button class="buttonStyle">Solicitar</button>
-          </div>
-          <div class='productBox'>
+                  <h4>Licenciamento de veículos</h4>
+                  <p>
+                      Não perca tempo, escolha nosso serviço de licenciamento de veículos e sinta-se tranquilo, pois nossa equipe é bem qualificada e irá cuidar do seu caso.
+                  </p>
+                  <form action="https://despachei-home.herokuapp.com/service">
+                      <button class='buttonStyle' type="submit" class="login-button">Pedir agora!</button>
+                  </form>
+              </div>
+              <div class='productBox'>
              <span class="icon-Despachei-CNH">
                  <span class="path1"></span><span class="path2"></span>
               </span>
-              <h4>Renovação da CNH</h4>
-              <p>
-                A partir de R$: xx,xx
-              </p>
-              <button class="buttonStyle">Solicitar</button>
-          </div>
-          <div class='productBox'>
+                  <h4>Renovação da CNH</h4>
+                  <p>
+                      Não tenha complicações com excessos de documentos e nem taxas abusivas com o nosso serviço de renovação de cnh.
+                  </p>
+                  <form action="https://despachei-home.herokuapp.com/service">
+                      <button class='buttonStyle' type="submit" class="login-button">Pedir agora!</button>
+                  </form>
+              </div>
+              <div class='productBox'>
              <span class="icon-Despachei-Transferencia">
                  <span class="path1"></span><span class="path2"></span>
               </span>
-              <h4>Transferência de veículos</h4>
-              <p>
-                A partir de R$: xx,xx
-              </p>
-              <button class="buttonStyle">Solicitar</button>
+                  <h4>Transferência de veículos</h4>
+                  <p>
+                      Com o nosso serviço de transferência, tudo fica mais fácil, tiraremos a sua dor de cabeça e pouparemos o seu tempo nesse processo.
+                  </p>
+                  <form action="https://despachei-home.herokuapp.com/service">
+                      <button class='buttonStyle' type="submit" class="login-button">Pedir agora!</button>
+                  </form>
+              </div>
           </div>
-        </section>
+      </div>
     </div>
     <div class='container MockUp clearfix'>
       <div class="wrapper cleafix">

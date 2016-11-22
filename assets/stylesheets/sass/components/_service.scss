@@ -1,55 +1,23 @@
 .servicesContainer {
   background: #001b4b; /* For browsers that do not support gradients */
-   background: -webkit-linear-gradient(#001b4b, #1883bb); /* For Safari 5.1 to 6.0 */
-   background: -o-linear-gradient(#001b4b, #1883bb); /* For Opera 11.1 to 12.0 */
-   background: -moz-linear-gradient(#001b4b, #1883bb); /* For Firefox 3.6 to 15 */
-   background: linear-gradient(#001b4b, #1883bb); /* Standard syntax */
-  > .wrapper{
+  background: -webkit-linear-gradient(#001b4b, #1883bb); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#001b4b, #1883bb); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#001b4b, #1883bb); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#001b4b, #1883bb); /* Standard syntax */
+
+  > .wrapper {
     h2 {
       color: #FFF;
-      line-height: 1;
-      margin-top: 80px;
-      margin-bottom: 0;
-      text-align: center;
-      font-size: 3.5em;
-      font-weight: 700;
+    }
+    h3 {
+      color: #E0E0E0;
+    }
+    .service-container{
+      width: 100%;
+      max-width: 980px;
+      height: 100%;
+      min-height: 520px;
+      margin: 10px auto 80px auto;
     }
   }
-}
-
-.image-Description{
-  width: 100%;
-  max-width: 600px;
-  margin: 0;
-  text-align: center;
-  float: left;
-  height: 100%;
-  min-height: 100vh;
-  h3 {
-    line-height: 1;
-    margin-top: 1%;
-    text-align: center;
-    font-size: 1.8em;
-    font-weight: 400;
-    color: #3ec4e3;
-  }
-  p {
-    margin: 20px auto;
-    width: 400px;
-    color: #FFF;
-    font-size: 1.250em;
-    font-weight: 300;
-    line-height: 1em;
-    margin-bottom: 120px;
-  }
-}
-
-.serviceList-Container{
-  width: 100%;
-  max-width: 600px;
-  height: 100%;
-  min-height: 100vh;
-  margin: 0;
-  margin-top: 60px;
-  float: right;
 }
