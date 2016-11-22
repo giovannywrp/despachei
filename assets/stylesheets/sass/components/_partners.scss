@@ -1,41 +1,40 @@
 .partnersContainer{
-  background: #FFF;
-  .partners-content {
-    width: 100%;
-    max-width: 50%;
-    height: 100%;
-
-    margin: 0 auto;
-  }
-
-  .partners-content.left{
-    float: left;
-    background: #303030;
-    > .wrapper{
-      max-width: 600px;
+  background: url('../../img/FundoParceiros.png') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  .wrapper{
+    text-align: center;
+    > h2{
+      margin-top: 140px;
+    }
+    > h3{
+      color: #FFF;
+    }
+    > h4 {
+      width: 200px;
+      margin: 15px auto;
       text-align: center;
-      > h3{
-        color: #FFF;
-      }
-      > h4 {
-        width: 200px;
-        margin: 15px auto;
-        text-align: center;
-        color: #3ec4e3;
-        font-size: 1.563em; /* 25px */
-        font-weight: 700;
-      }
-      > p {
-        color: #FFF;
-        max-width: 100%;
-        max-width: 550px;
-        margin-top: 0;
-        margin-bottom: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 1.250em;
-        font-weight: 300;
-      }
+      color: #3ec4e3;
+      font-size: 1.563em; /* 25px */
+      font-weight: 700;
+    }
+    > p {
+      color: #FFF;
+      max-width: 100%;
+      max-width: 550px;
+      margin-top: 0;
+      margin-bottom: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.250em;
+      font-weight: 300;
+    }
+    .list{
+      width: 100%;
+      height: 100%;
+      min-height: 100px;
+      max-width: 630px;
+      margin: 0 auto;
       > ul {
         width: 100%;
         max-width: 250px;
@@ -61,45 +60,25 @@
           }
         }
       }
-      .partners-button{
-        max-width: 400px;
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        > button{
-          margin-top: 80px;
-          margin-bottom: 80px;
-        }
-      }
     }
-  }
-
-  .partners-content.right{
-    float: right;
-    background: url('../../img/imgParceiros.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 652px;
+    .buttonStyle{
+      margin-bottom: 110px;
+    }
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 770px) {
-  .partnersContainer{
-    .partners-content {
-      width: 100%;
-      max-width: none;
-    }
-    .partners-content.left{
-      float: none;
-      max-width: 100%;
-      > .wrapper{
-        max-width: 300px;
-        > h4{
-          font-size: 1.250em;
-        }
-        > p {
-          font-size: 1em;
-        }
+  .partnersContainer {
+    > .wrapper{
+      max-width: 300px;
+      > h4{
+        font-size: 1.250em;
+      }
+      > p {
+        width: 250px;
+        font-size: 1em;
+      }
+      .list{
         ul {
           float: none;
           margin-bottom: 15px;
@@ -110,17 +89,7 @@
             }
           }
         }
-        .partners-button{
-          > button {
-            margin-top: 65px;
-            margin-bottom: 80px;
-          }
-        }
       }
-    }
-    .partners-content.right{
-      float: none;
-      min-height: 0;
     }
   }
 }
