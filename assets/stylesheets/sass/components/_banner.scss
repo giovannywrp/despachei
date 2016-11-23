@@ -87,16 +87,11 @@ $bold: 700;
       h2 {
         font-size: 1em; //16px
       }
-      .ArrowDown {
-        a {
-          font-size: 1em;
-        }
-      }
     }
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 425px) {
+@media screen and (min-width: 375px) and (max-width: 520px) {
   .banner {
     > .wrapper {
       h1 {
@@ -106,10 +101,19 @@ $bold: 700;
       h2 {
         font-size: 1em; //16px
       }
-      .ArrowDown {
-        a {
-          font-size: 1em;
-        }
+    }
+  }
+}
+
+@media screen and (min-width: 520px) and (max-width: 768px) {
+  .banner {
+    > .wrapper {
+      h1 {
+        padding-top: 210px;
+        font-size: 1.875em; //30px
+      }
+      h2 {
+        font-size: 1.250em; //20px
       }
     }
   }
