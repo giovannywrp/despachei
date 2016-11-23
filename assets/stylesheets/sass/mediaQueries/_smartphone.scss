@@ -1,22 +1,5 @@
 @media screen and (min-width: 320px) and (max-width: 770px) {
 
-  .banner {
-    > .wrapper{
-      h1 {
-        padding-top: 170px;
-        font-size: 1.563em; //25px
-      }
-      h2{
-        font-size: 1em; //16px
-      }
-      .ArrowDown {
-        a {
-          font-size: 1em;
-        }
-      }
-    }
-  }
-
   .bannerBox{
     .inputContainer{
       margin-top: 10px;
