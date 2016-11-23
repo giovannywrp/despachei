@@ -22,9 +22,10 @@ window.addEventListener('scroll', function () {
   }
 });
 
-var smoothScroll = require('smoothScroll.js');
+
 
 function handleScroll(target){
-  smoothScroll.scrollTo(target, 'y')
+  var scroll = new smoothScroll();
+  scroll.scrollTo(target, 'y')
 }
 
