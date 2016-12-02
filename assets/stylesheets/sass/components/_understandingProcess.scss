@@ -5,21 +5,16 @@
       display: flex;
       flex-wrap: wrap;
       align-items: flex-start;
-      justify-content: space-around;
+      justify-content: space-between;
       margin-bottom: 80px;
       margin-top: 80px;
     }
   }
 }
 
-.stepBox {
-  max-width: 250px;
-}
-
 .arrowBox {
-  max-width: 50px;
   > span {
-    font-size: 80px;
+    font-size: 90px;
   }
 }
 
@@ -28,5 +23,27 @@
     max-width: 0;
     max-height: 0;
     visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .arrowBox:nth-child(4) {
+    max-width: 0;
+    max-height: 0;
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+  .underStandingProcess {
+    > .wrapper {
+      > .steps-container {
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .arrowBox:nth-child(4) {
+    visibility: visible;
   }
 }
