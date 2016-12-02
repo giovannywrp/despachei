@@ -80,7 +80,7 @@ $bold: 700;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 374px) {
+@media screen and (min-width: 320px) and (max-width: 520px) {
   .banner {
     > .wrapper {
       h1 {
@@ -93,20 +93,7 @@ $bold: 700;
   }
 }
 
-@media screen and (min-width: 375px) and (max-width: 520px) {
-  .banner {
-    > .wrapper {
-      h1 {
-        font-size: 1.563em; //25px
-      }
-      h2 {
-        font-size: 1em; //16px
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 520px) and (max-width: 700px) {
+@media screen and (min-width: 520px) and (max-width: 768px) {
   .banner {
     > .wrapper {
       h1 {
