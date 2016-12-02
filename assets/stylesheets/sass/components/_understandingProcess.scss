@@ -1,15 +1,22 @@
 .underStandingProcess{
   background: rgba(252, 252, 252, 0.1);
+  > .wrapper {
+    > .steps-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-around;
+      margin-bottom: 80px;
+      margin-top: 80px;
+    }
+  }
 }
 
 .stepBox {
-  margin-right: 0;
   max-width: 250px;
 }
 
 .arrowBox {
-  margin-top: 90px;
-  margin-right: 0;
   max-width: 50px;
   > span {
     font-size: 80px;
